@@ -1,7 +1,0 @@
-class Registration{
-    String mail;
-    String passwort;
-    String repeatPasswort;
-
-Registration(this.mail, this.passwort, this.repeatPasswort);
-}
