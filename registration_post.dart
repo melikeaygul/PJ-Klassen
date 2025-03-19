@@ -7,6 +7,13 @@ class Registration {
   String regist;
   String alreadyLoggedIn;
 
-  Registration(this.titel, this.text, this.mail, this.passwort,
-      this.repeatPasswort, this.regist, this.alreadyLoggedIn);
+  Registration(
+    this.titel,
+    this.text,
+    this.mail,
+    this.passwort,
+    this.repeatPasswort,
+    this.regist,
+    this.alreadyLoggedIn,
+  );
 }

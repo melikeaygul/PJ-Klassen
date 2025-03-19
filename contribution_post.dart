@@ -9,6 +9,15 @@ class Contribution {
   String info;
   String link;
 
-  Contribution(this.name, this.id, this.postPicUrl, this.like, this.comment,
-      this.share, this.favorit, this.info, this.link);
+  Contribution(
+    this.name,
+    this.id,
+    this.postPicUrl,
+    this.like,
+    this.comment,
+    this.share,
+    this.favorit,
+    this.info,
+    this.link,
+  );
 }

@@ -9,6 +9,15 @@ class Login {
   String icon;
   String notRegist;
 
-  Login(this.titel, this.text, this.mail, this.passwort, this.regist,
-      this.forgetPasswort, this.log, this.icon, this.notRegist);
+  Login(
+    this.titel,
+    this.text,
+    this.mail,
+    this.passwort,
+    this.regist,
+    this.forgetPasswort,
+    this.log,
+    this.icon,
+    this.notRegist,
+  );
 }
