@@ -1,13 +1,13 @@
 class Contribution {
-  String name;
-  String id;
-  String postPicUrl;
-  int like;
-  int comment;
-  int share;
-  bool favorit;
-  String info;
-  String link;
+  final String name;
+  final String id;
+  final String postPicUrl;
+  final int like;
+  final int comment;
+  final int share;
+  final bool favorit;
+  final String info;
+  final String link;
 
   Contribution({
     required this.name,

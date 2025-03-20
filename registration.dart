@@ -1,11 +1,11 @@
 class Registration {
-  String titel;
-  String text;
-  String mail;
-  String passwort;
-  String repeatPasswort;
-  String regist;
-  String alreadyLoggedIn;
+  final String titel;
+  final String text;
+  final String mail;
+  final String passwort;
+  final String repeatPasswort;
+  final String regist;
+  final String alreadyLoggedIn;
 
   Registration({
     required this.titel,

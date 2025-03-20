@@ -1,9 +1,9 @@
 class Setting {
-  String help;
-  String dark;
-  String deleteAcc;
-  String privateSet;
-  String logout;
+  final String help;
+  final String dark;
+  final String deleteAcc;
+  final String privateSet;
+  final String logout;
 
   Setting({
     required this.help,

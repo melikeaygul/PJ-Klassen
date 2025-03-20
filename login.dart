@@ -1,13 +1,13 @@
 class Login {
-  String titel;
-  String text;
-  String mail;
-  String passwort;
-  String regist;
-  String forgetPasswort;
-  String log;
-  String icon;
-  String notRegist;
+  final String titel;
+  final String text;
+  final String mail;
+  final String passwort;
+  final String regist;
+  final String forgetPasswort;
+  final String log;
+  final String icon;
+  final String notRegist;
 
   Login({
     required this.titel,

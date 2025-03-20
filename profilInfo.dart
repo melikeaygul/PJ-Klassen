@@ -1,6 +1,6 @@
 class ProfilInfo {
-  String fullName;
-  String infoText;
+  final String fullName;
+  final String infoText;
 
   ProfilInfo(
     this.fullName,

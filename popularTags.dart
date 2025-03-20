@@ -1,6 +1,6 @@
 class Tags {
-  String titel;
-  List<String> tags;
+  final String titel;
+  final List<String> tags;
 
   Tags(
     this.titel,

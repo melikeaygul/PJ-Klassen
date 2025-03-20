@@ -1,6 +1,6 @@
 class Notification {
-  String titel;
-  String notiFi;
+  final String titel;
+  final String notiFi;
 
   Notification(
     this.titel,
