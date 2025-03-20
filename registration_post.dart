@@ -7,13 +7,13 @@ class Registration {
   String regist;
   String alreadyLoggedIn;
 
-  Registration(
-    this.titel,
-    this.text,
-    this.mail,
-    this.passwort,
-    this.repeatPasswort,
-    this.regist,
-    this.alreadyLoggedIn,
-  );
+  Registration({
+    required this.titel,
+    required this.text,
+    required this.mail,
+    required this.passwort,
+    required this.repeatPasswort,
+    required this.regist,
+    required this.alreadyLoggedIn,
+  });
 }

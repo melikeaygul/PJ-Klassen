@@ -9,15 +9,15 @@ class Login {
   String icon;
   String notRegist;
 
-  Login(
-    this.titel,
-    this.text,
-    this.mail,
-    this.passwort,
-    this.regist,
-    this.forgetPasswort,
-    this.log,
-    this.icon,
-    this.notRegist,
-  );
+  Login({
+    required this.titel,
+    required this.text,
+    required this.mail,
+    required this.passwort,
+    required this.regist,
+    required this.forgetPasswort,
+    required this.log,
+    required this.icon,
+    required this.notRegist,
+  });
 }

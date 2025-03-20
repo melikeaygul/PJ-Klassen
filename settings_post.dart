@@ -5,11 +5,11 @@ class Setting {
   String privateSet;
   String logout;
 
-  Setting(
-    this.help,
-    this.dark,
-    this.deleteAcc,
-    this.privateSet,
-    this.logout,
-  );
+  Setting({
+    required this.help,
+    required this.dark,
+    required this.deleteAcc,
+    required this.privateSet,
+    required this.logout,
+  });
 }
