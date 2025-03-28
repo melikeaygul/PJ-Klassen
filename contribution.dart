@@ -1,22 +1,24 @@
 class Contribution {
   final String name;
   final String id;
+  final String profilePicUrl;
   final String postPicUrl;
-  final int like;
-  final int comment;
-  final int share;
-  final bool favorit;
+  final int likee;
+  final String commentt;
+  final int sharee;
+  final bool favoritt;
   final String info;
   final String link;
 
   Contribution({
     required this.name,
     required this.id,
+    required this.profilePicUrl,
     required this.postPicUrl,
-    required this.like,
-    required this.comment,
-    required this.share,
-    required this.favorit,
+    required this.likee,
+    required this.commentt,
+    required this.sharee,
+    required this.favoritt,
     required this.info,
     required this.link,
   });
